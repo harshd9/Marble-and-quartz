@@ -1,0 +1,26 @@
+
+/* KeralaSlideshow.css */
+
+/* Style for the slideshow container */
+.kerala-slideshow {
+    max-width: 100%;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Style for the images */
+  .kerala-slideshow img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    margin: 0 auto;
+    border-radius: 10px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+    transition: transform 0.3s ease; /* Add a smooth hover effect */
+  }
+  
+  /* Hover effect for images */
+  .kerala-slideshow img:hover {
+    transform: scale(1.1); /* Scale up the image on hover */
+  }
+  

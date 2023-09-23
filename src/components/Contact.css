@@ -1,0 +1,91 @@
+/* Contact.css */
+
+/* Container styles */
+.contact-container {
+  padding: 20px;
+  background-color: #f2f2f2;
+  min-height: 100vh;
+  text-align: center;
+}
+
+/* Header styles */
+.header {
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 18px;
+  color: #666;
+}
+
+/* Contact form styles */
+.contact-form {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.inform{
+  margin: 20px; 
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #f9f9f9;
+}
+
+textarea {
+  height: 120px;
+}
+
+button[type="submit"] {
+  background-color: #0a0d11;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #cd8f31;
+}
+
+/* Success message styles */
+.success-message {
+  background-color: #f0c454;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+  font-size: 18px;
+}
